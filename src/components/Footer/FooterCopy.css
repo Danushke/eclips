@@ -1,0 +1,73 @@
+.footer {
+  display: flex;
+  align-items: center;
+  margin: -0.5rem -3.5rem;
+  position: relative;
+  margin-top: -7rem;
+}
+.f-left {
+  
+  position: absolute;
+  display: flex;
+  align-items: left;
+  justify-content: center;
+  flex-direction: column;
+  width: 100%;
+  margin-top: 4rem;
+  margin-left: 3rem;
+  gap: 2rem;
+  color: white;
+  
+}
+.f-right {
+  position: absolute;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  flex-direction: column;
+  width: 100%;
+  margin-top: 4rem;
+  padding-right: 4rem;
+  color: white;
+
+  /*
+  position: absolute;
+  display: flex;
+  align-items: right;
+  justify-content: center;
+  flex-direction: column;
+  width: 100%;
+  margin-top: 4rem;
+  margin-right: 3rem;
+  gap: 2rem;
+  color: white;*/
+}
+.f-font {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+.f-list {
+margin-bottom: 0.3rem;
+align-items: center;
+}
+.f-content {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 100%;
+  margin-top: 4rem;
+  gap: 3rem;
+  color: white;
+}
+.f-icons {
+  display: flex;
+  gap: 2rem;
+}
+
+@media screen and (max-width: 480px){
+  .f-content{
+    transform: scale(.5);
+  }
+}
